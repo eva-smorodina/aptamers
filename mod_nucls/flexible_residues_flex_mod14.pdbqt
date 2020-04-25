@@ -1,0 +1,41 @@
+BEGIN_RES ALA L  1
+REMARK  4 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: _6  and  _7
+REMARK    2  A    between atoms: _9  and  _10
+REMARK    3  A    between atoms: _12  and  _13
+REMARK    4  A    between atoms: _16  and  _15
+ROOT
+ATOM     16  C13 UNL     1      -3.433  -3.366  29.252  1.00  0.00     0.016 C
+ENDROOT
+BRANCH  16  15
+ATOM     13  C11 UNL     1      -0.800  -0.822  29.740  1.00  0.00     0.085 A
+ATOM     14  C12 UNL     1      -1.839  -1.718  29.990  1.00  0.00     0.023 A
+ATOM     15  N2  UNL     1      -2.349  -2.431  28.988  1.00  0.00    -0.303 N
+ATOM     17  C14 UNL     1      -1.912  -2.339  27.710  1.00  0.00     0.328 A
+ATOM     18  O1  UNL     1      -2.426  -3.036  26.788  1.00  0.00    -0.248 OA
+ATOM     19  N3  UNL     1      -0.920  -1.489  27.446  1.00  0.00    -0.273 N
+ATOM     20  C15 UNL     1      -0.368  -0.740  28.438  1.00  0.00     0.263 A
+ATOM     21  O2  UNL     1       0.560   0.031  28.092  1.00  0.00    -0.269 OA
+BRANCH  13  12
+ATOM     10  N1  UNL     1       1.015   1.395  31.988  1.00  0.00    -0.220 N
+ATOM     11  C9  UNL     1       0.777   0.881  30.772  1.00  0.00     0.059 A
+ATOM     12  C10 UNL     1      -0.231  -0.037  30.817  1.00  0.00     0.120 A
+ATOM     22  N4  UNL     1      -0.596  -0.054  32.134  1.00  0.00    -0.130 NA
+ATOM     23  N5  UNL     1       0.168   0.815  32.815  1.00  0.00    -0.062 NA
+BRANCH  10   9
+ATOM      1  C1  UNL     1       3.346   0.713  33.558  1.00  0.00    -0.038 C
+ATOM      2  C2  UNL     1       3.111   2.098  33.082  1.00  0.00    -0.025 A
+ATOM      3  C3  UNL     1       4.043   3.061  33.411  1.00  0.00    -0.057 A
+ATOM      4  C4  UNL     1       3.838   4.358  32.974  1.00  0.00    -0.062 A
+ATOM      5  C5  UNL     1       2.737   4.665  32.236  1.00  0.00    -0.056 A
+ATOM      6  C6  UNL     1       1.806   3.670  31.915  1.00  0.00    -0.011 A
+ATOM      9  C8  UNL     1       1.981   2.368  32.335  1.00  0.00     0.073 A
+BRANCH   6   7
+ATOM      7  C7  UNL     1       0.613   4.005  31.114  1.00  0.00     0.030 C
+ATOM      8 BR1  UNL     1       0.646   5.907  30.674  1.00  0.00    -0.088 Br
+ENDBRANCH   6   7
+ENDBRANCH  10   9
+ENDBRANCH  13  12
+ENDBRANCH  16  15
+END_RES ALA L  1
